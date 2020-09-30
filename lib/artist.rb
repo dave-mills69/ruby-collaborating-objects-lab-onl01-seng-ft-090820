@@ -4,7 +4,7 @@ class Artist
 
   def initialize(name)
     @name = name
-    @songs = [Song.all]
+    @songs = []
   end
 
   def add_song(song)
